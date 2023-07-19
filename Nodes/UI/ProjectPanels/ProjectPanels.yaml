@@ -8282,6 +8282,16 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 20.0
+        - Name: CurrentTabIndex
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 0
+        - Class: Reference
+          Target: ns=5;i=1181
+          Direction: Forward
+        - Class: Reference
+          Target: ns=5;i=1183
+          Direction: Forward
     - Name: Label2
       Type: Label
       Children:
@@ -8491,6 +8501,16 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 20.0
+        - Name: CurrentTabIndex
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 0
+        - Class: Reference
+          Target: ns=5;i=1181
+          Direction: Forward
+        - Class: Reference
+          Target: ns=5;i=1183
+          Direction: Forward
   - Name: VerticalAlignment
     Type: BaseVariableType
     DataType: VerticalAlignment
@@ -9518,6 +9538,16 @@ Children:
               Type: PropertyType
               DataType: NodeId
               Value: {"Id":6,"Namespace":5}
+          - Name: CurrentTabIndex
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 0
+          - Class: Reference
+            Target: ns=5;i=1181
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=1183
+            Direction: Forward
       - Name: PowerMeter
         Type: Alias
         DataType: NodeId
@@ -12753,6 +12783,16 @@ Children:
                 DataType: DynamicLinkMode
                 ModellingRule: Optional
                 Value: 2
+          - Name: CurrentTabIndex
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 0
+          - Class: Reference
+            Target: ns=5;i=1181
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=1183
+            Direction: Forward
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -14873,7 +14913,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"xi.cao@rockwellautomation.com"}
+      Value: {"LocaleId":"en-US","Text":"speguan@ra.rockwell.com"}
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -14900,7 +14940,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"hello"}
+      Value: {"LocaleId":"en-US","Text":"FT Optix test report generation."}
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -14968,7 +15008,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":28,"TextId":"Report"}
+      Value: {"LocaleId":"en-US","Text":"FT Optix Report"}
     - Name: Width
       Type: BaseVariableType
       DataType: Size

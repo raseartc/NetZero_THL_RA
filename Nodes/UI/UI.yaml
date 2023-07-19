@@ -18,7 +18,7 @@ Children:
   - Name: NavigationPanelStyle
     Type: NavigationPanelStyle
     Children:
-    - Name: ActiveColor
+    - Name: ActivePrimaryColor
       Type: BaseDataVariableType
       DataType: Color
       Value: "#4589ab"
@@ -26,6 +26,10 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       Value: 15.0
+    - Name: IconUsesTextColor
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
   - Name: ChartStyle
     Type: ChartStyle
   - Name: DataListStyle
@@ -2528,6 +2532,11 @@ Children:
       Value: 23.0
   - Name: NavigationPanelStyle
     Type: NavigationPanelStyle
+    Children:
+    - Name: IconUsesTextColor
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
   - Name: ChartStyle
     Type: ChartStyle
     Children:
@@ -2731,7 +2740,16 @@ Children:
         DataType: TimeZoneDataType
         ReferenceType: HasProperty
         AccessLevel: Read
-        Value: {"TypeId":{"Id":8912},"Body":{"offset":0,"daylightSavingInOffset":false}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 8912
+          },
+          "Body": {
+           "offset": 0,
+           "daylightSavingInOffset": false
+          }
+         }
       - Name: Groups
         Type: BaseObjectType
       - Name: Roles
